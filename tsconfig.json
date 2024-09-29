@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "outDir": "./build", // 빌드된 파일을 build 디렉토리에 저장
+    "noEmit": false, // 빌드를 활성화
+    "removeComments": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules" // node_modules 디렉토리를 빌드에서 제외
+  ]
+}
